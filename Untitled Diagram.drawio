@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T12:43:02.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.7.3" etag="XC_6x9FJgyRvl6eavQyT" type="github"><diagram id="BhmQ_Kt3GyK-PfTfmq_V">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-17T13:24:01.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="TN6WDs1U46yAP6oSZ8H3" version="13.7.3" type="github">
+  <diagram id="BhmQ_Kt3GyK-PfTfmq_V" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-1" target="GYtLoOp-D6Cu9dgcnnQV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-2" target="GYtLoOp-D6Cu9dgcnnQV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-2" value="Enter Start Balance&lt;br&gt;in Dollars" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-4" value="Is it a valid number?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-6" value="Yes" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-7" target="GYtLoOp-D6Cu9dgcnnQV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-7" target="GYtLoOp-D6Cu9dgcnnQV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-8" value="No" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-4" target="GYtLoOp-D6Cu9dgcnnQV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="360" as="sourcePoint" />
+            <mxPoint x="220" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="230" />
+              <mxPoint x="170" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-9" target="GYtLoOp-D6Cu9dgcnnQV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-9" value="Enter Yearly Contribution" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-12" value="Is Input a Valid Number?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="475" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-14" value="No" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-12" target="GYtLoOp-D6Cu9dgcnnQV-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="820" as="sourcePoint" />
+            <mxPoint x="220" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="515" />
+              <mxPoint x="170" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-15" value="Yes" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="770" as="sourcePoint" />
+            <mxPoint x="100" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-7" value="Store value as (D)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="285" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-18" target="GYtLoOp-D6Cu9dgcnnQV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-18" value="Store value as (Y)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-19" value="Yes" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-12" target="GYtLoOp-D6Cu9dgcnnQV-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="550" as="sourcePoint" />
+            <mxPoint x="100" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-20" target="GYtLoOp-D6Cu9dgcnnQV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-20" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Enter&amp;nbsp;Average Return On Investment as %&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-22" value="Is Input a Valid&amp;nbsp; Number?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-24" value="No" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-22" target="GYtLoOp-D6Cu9dgcnnQV-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="790" as="sourcePoint" />
+            <mxPoint x="240" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="800" />
+              <mxPoint x="170" y="750" />
+              <mxPoint x="170" y="730" />
+              <mxPoint x="170" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-26" value="Yes" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="840" as="sourcePoint" />
+            <mxPoint x="100" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-27" target="GYtLoOp-D6Cu9dgcnnQV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-27" value="Store Value as (R)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="855" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-28" target="GYtLoOp-D6Cu9dgcnnQV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-28" value="Enter Number of years" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-30" value="&lt;span&gt;Is Input a Valid&amp;nbsp; Number?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-32" value="No" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-30" target="GYtLoOp-D6Cu9dgcnnQV-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1140" as="sourcePoint" />
+            <mxPoint x="210.71067811865476" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1090" />
+              <mxPoint x="170" y="1030" />
+              <mxPoint x="170" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-34" value="Yes" style="endArrow=classic;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1180" as="sourcePoint" />
+            <mxPoint x="100" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-35" target="GYtLoOp-D6Cu9dgcnnQV-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-35" value="Store Value as (Y)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GYtLoOp-D6Cu9dgcnnQV-38" target="GYtLoOp-D6Cu9dgcnnQV-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-38" value="Plug all stored values into equation" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GYtLoOp-D6Cu9dgcnnQV-40" value="Print answer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1410" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
